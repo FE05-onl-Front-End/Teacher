@@ -23,13 +23,20 @@
         
 
         const numbers = [10, 2, 3, 4, 32, 54, 65, 12, 5];
+        let isCheck = false;
 
         for (let i = 0; i < numbers.length; i++) {
           let answer = Math.pow(numbers[i], 2);
           if(i === numbers.length - 1) {
             break;
+            isCheck = true
           };
           console.log(answer);
+        }
+
+
+        if (isCheck === false) {
+          alert("Поиск не принес успехов")
         }
 
         const people = [
