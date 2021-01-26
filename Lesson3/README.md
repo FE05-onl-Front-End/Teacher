@@ -3,7 +3,7 @@
 # Lesson 3
 -------------------------
 
-Ссылка на презентацию https://yadi.sk/i/ccXMv8Yldk4pBQ
+Ссылка на презентацию https://yadi.sk/i/_oqnq7oBOa9KbQ
 
 # Домашнее задание: 
 
