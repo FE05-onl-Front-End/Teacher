@@ -23,17 +23,32 @@
 Т.е набор функций, которые меняют состояние зоопарка
 Например меняют кличку животному - функция принимает имя животного и новую кличку, на выходе новый массив в котором у этого животного новая кличка
 
-zoo(animals)
+```
+const animals = [
+ {
+   name: "lyon",
+   weight: 45,
+   isHealthy: true,
+   isAche: false,
+   warden: {
+    name: "Petr",
+    age: 72
+   }
+ },
+ //далее объекты остальных, полей может быть больше
+];
 
-
-function zoo (animals) {
+function zoo () { //тут никаких параметров, это такая сборочная функция для нас будет
   return {
-    deleteAnimal: function(name, animals) {},
-    changeHelth: function(status, animals, name) {},
-    
+    deleteAnimal: function(animals, name) {
+    },
+    changeHelth: function(status, animals) {},
+    addAnimal: (animals, params) => {//здесь решение, а например params - это объект с полями для нового животного}
   }
 }
 
-zoo(animals).changeHelth()
-let zooManager = zoo(animals)
-zooManager.changeHelth()
+let zooManager = zoo()
+zooManager.deleteAnimal(animals, name)
+
+//и другие методы, добавить-поменять какое-то свойство и т.д
+```
