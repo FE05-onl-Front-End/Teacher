@@ -8,7 +8,7 @@
 # Домашнее задание 1: 
 
 Посмотреть важный видосик по CallStack https://www.youtube.com/watch?v=8aGhZQkoFbQ
-
+И ту статью https://habr.com/ru/company/ruvds/blog/340194/
 
 # Домашнее задание 2
 
