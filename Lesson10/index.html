@@ -4,11 +4,21 @@
         <meta charset="utf-8" />
         <title>Заголовок</title>
     </head>
-    <body>
-        <h1 id="test">Мой первый заголовок</h1>
+    <body style="width: 4000px;">
+        <h1 id="test" style="height: 500px;">Мой первый заголовокМой первый заголовокМой первый заголовокМой первый заголовокМой первый заголовокМой первый заголовокМой первый заголовокМой первый заголовок</h1>
+        <h1 id="test" style="height: 200px;">Мой первый заголовок</h1>
+        <h1 id="test" style="height: 500px;">Мой первый заголовок</h1>
+        <h1 id="test" style="height: 3200px;">Мой первый заголовок</h1>
         <!-- <p>Мой первый абзац</p> -->
         <script>
-           
+            document.addEventListener('scroll', (e) => {
+                console.log('Координаты по x:' + window.pageXOffset);
+                console.log('Координаты по y:' + window.pageYOffset);
+                if(window.pageYOffset === 1000) {
+                    alert("целая тысяча! Вы зашли слишком далеко! Остановитесь!")
+                }
+            })
         </script>
+        <!-- <script src="./test.js"></script> -->
     </body>
 </html>
